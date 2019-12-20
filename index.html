@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head charset="UTF-8">
         <title>Geo Search</title>
         <meta name="viewport" content="width=device-width", initial-scale="1">
         <link rel="stylesheet" type="text/css" href="main.css">
@@ -11,9 +11,20 @@
                 <div class="text-intro">
                     <h2>GEO SEARCH</h2>
                 </div>
-                <div>
-                    <input type="search" placeholder="search location e.g, Ikeja, Ojodu" id="search">
+
+                <div class="searchform">
+                    <input type="search" placeholder="Search location e.g, Ikeja, Ojodu...." id="search">
                     <button type="submit" id="sbtn">Search</button>
+                </div>
+
+                <div class="temp">
+                    <h3 id="temp">40°F</h3>
+                </div>
+
+                <div class="convert">
+                    <button type="submit" id="fc">Fharenheit ~ Celsius</button>
+                    &nbsp;
+                    <button type="submit" id="cf">Celsius ~ Fharenheit</button>
                 </div>
             </header>
         </main>
